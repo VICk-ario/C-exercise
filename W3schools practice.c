@@ -1,10 +1,10 @@
 #include <stdio.h>
-
+#include <stdbool.h>
 int main() {
-  int x = 35;
-  int y = 20;
-  if (x > y) {
-    printf("x is greater than y");
-  }
+  bool isMessithegoat = true;
+  bool isHespanish = false;
+  printf("%d\n",isMessithegoat);
+  printf("%d\n", isHespanish);
+
   return 0;
 }
